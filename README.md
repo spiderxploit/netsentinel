@@ -1,69 +1,71 @@
 <div align="center">
 
-```
+<pre>
 ███╗   ██╗███████╗████████╗███████╗███████╗███╗   ██╗████████╗██╗███╗   ██╗███████╗██╗
 ████╗  ██║██╔════╝╚══██╔══╝██╔════╝██╔════╝████╗  ██║╚══██╔══╝██║████╗  ██║██╔════╝██║
 ██╔██╗ ██║█████╗     ██║   ███████╗█████╗  ██╔██╗ ██║   ██║   ██║██╔██╗ ██║█████╗  ██║
 ██║╚██╗██║██╔══╝     ██║   ╚════██║██╔══╝  ██║╚██╗██║   ██║   ██║██║╚██╗██║██╔══╝  ██║
-██║ ╚████║███████╗   ██║   ███████║███████╗██║ ╚████║   ██║   ██║██║ ╚████║███████╗███████╗
-╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
+    ██║ ╚████║███████╗   ██║   ███████║███████╗██║ ╚████║   ██║   ██║██║ ╚████║███████╗███████╗
+    ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
+</pre>
 
-```
+<img src="https://img.shields.io/badge/version-v3-00ffcc?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-00ffcc?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/License-MIT-ff6b35?style=for-the-badge&labelColor=0d1117"/>
 
-**v3 · Real-Time Network Intelligence Dashboard**
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-cyan?style=flat-square&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-blueviolet?style=flat-square)
+**Real-time network monitoring, vulnerability detection & traffic analysis dashboard**
 
 </div>
 
 ---
 
-## Dashboard
+## 📸 Dashboard
 
 ![NetSentinel Dashboard](dashboard.png)
 
 ---
 
-## Features
+## ✨ Features
 
-- 📡 **Live Network Map** — visualize nodes, edges, TCP/UDP/ICMP traffic in real time  
-- 🔍 **Device Discovery** — auto-scan and fingerprint devices on your subnet  
-- 🚨 **Alert Engine** — severity-classified alerts with live counts  
-- 🛡️ **Vulnerability Tracker** — CVE-aware vuln detection per host  
-- 🌐 **Internet Speed & Latency** — HTTP probe with download, upload, ping & jitter  
-- 🔓 **Open Port Scanner** — per-device port enumeration  
-- 📊 **Bandwidth Monitor** — real-time packet rate graphs  
-- 🕵️ **IP OSINT** — enriched intel lookups on any IP  
+- 🌐 **Live Network Map** — Interactive node graph with TCP/UDP/ICMP traffic visualization
+- 📡 **Device Discovery** — Auto-detects all devices on the local subnet with OS fingerprinting
+- ⚡ **Internet Speed & Latency** — HTTP probe for real-time download, upload, ping & jitter
+- 🚨 **Alert Engine** — Severity-ranked alerts with live badge counters
+- 🔒 **Vulnerability Scanner** — CVE-mapped open port and service analysis
+- 📊 **Bandwidth Monitor** — Per-device packet rate tracking
+- 🔍 **IP OSINT** — Geolocation, ASN, and threat intel lookups
+- 🖥️ **Multi-view Sidebar** — Overview, Devices, Live Traffic, Alerts, Vulnerabilities, Open Ports
 
 ---
 
-## Setup
+## 🚀 Installation
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/spiderxploit/netsentinel.git
 ```
 
+### 2. Navigate into the Project
+
 ```bash
 cd netsentinel
 ```
 
-### 2. Activate the virtual environment
+### 3. Activate the Virtual Environment
 
-**macOS / Linux**
+**macOS / Linux:**
 ```bash
 source venv/bin/activate
 ```
 
-**Windows**
+**Windows:**
 ```bash
 source venv/Scripts/activate
 ```
 
-### 3. Install dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -71,42 +73,59 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
+## ▶️ Usage
 
-**macOS / Linux**
+**macOS / Linux:**
 ```bash
 python3 netsentinel.py
 ```
 
-**Windows**
+**Windows:**
 ```bash
 python netsentinel.py
 ```
 
----
+Then open your browser and navigate to:
 
-## Requirements
-
-- Python 3.8+
-- Virtual environment (`venv`) included in the repo
-- Root / Administrator privileges recommended for packet capture
+```
+http://localhost:5000
+```
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 netsentinel/
-├── netsentinel.py       # Main entry point
+├── netsentinel.py       # Main application entry point
 ├── requirements.txt     # Python dependencies
-├── dashboard.png        # GUI preview
-└── venv/                # Virtual environment
+├── dashboard.png        # UI screenshot
+└── README.md
 ```
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.8 or higher
+- A virtual environment (`venv`) — included in the repo
+- Network interface with access to the local subnet
+- Root / Administrator privileges recommended for full packet capture
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📄 License
+
+MIT © [spiderxploit](https://github.com/spiderxploit)
 
 ---
 
 <div align="center">
-
-Built by [@spiderxploit](https://github.com/spiderxploit) · Dark by design 🕷️
-
+<sub>Built with 🖤 for network defenders and red teamers</sub>
 </div>
