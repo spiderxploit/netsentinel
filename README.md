@@ -9,10 +9,7 @@
      ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝
 </pre>
 
-<img src="https://img.shields.io/badge/version-v3-00ffcc?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-00ffcc?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/License-MIT-ff6b35?style=for-the-badge&labelColor=0d1117"/>
+
 
 **Real-time network monitoring, vulnerability detection & traffic analysis dashboard**
 
